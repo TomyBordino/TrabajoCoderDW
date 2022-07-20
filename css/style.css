@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@100;400&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header {
+    background-image: linear-gradient(to right, #fc4a1a, #f7b733);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #2C1F1C;
+
+}
+
+/*Boton Wsp*/
+.botonWsp img{
+    width: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.botonera {
+    margin-right: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+nav a:hover{
+    color: white;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+/*SECCION INICIO*/
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 50px;
+}
+
+
+.primeraCaja{
+    display: flex;
+    padding: 30px;
+    margin: 50px;
+    justify-content: center;
+    align-content: center;
+    background-image:url(../imagenes/pizzaInicioCuatro.jpg);
+    border-radius: 20px;
+}
+.hijoPrimeraCaja{
+
+    height: 450px;
+    width: 600px;
+
+}
+
+
+.primeraCaja h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.primeraCaja p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.tituloC1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+    color: white;
+    
+    
+}
+
+.descripcionCUno{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.segundaCaja {
+    display: flex;
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    /*border: solid 1px #99A799;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    align-content: center;
+    
+}
+
+.segundaCaja h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.segundaCaja p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.segundaCaja img{
+    border-radius: 20px;
+}
+
+.hijoSegundaCaja{
+    height: 400px;
+    width: 600px;
+    /*background-color: aquamarine;*/
+}
+
+.descripcionSegundaCaja{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*SECCION MENU*/
+
+.tituloMenu{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Yellowtail', cursive;
+    font-size: 70px;
+    color: #C8553D;
+
+}
+
+.menu{
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+
+}
+
+.menu h2{
+    color: white;
+    font-size: 40px;
+}
+
+.hijoMenu{
+    padding: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Yellowtail', cursive;
+    
+}
+
+/*SECCION CONTACTO*/
+
+.campo{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    text-transform:capitalize;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.boton {
+    color: black;
+    background-color: #E5E8E8;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /*Mover Botones al Centro */
+    margin-left: 48%;
+    
+}
+
+
+.tituloContacto{
+    margin-top: 30px;
+    margin-left: 470px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Yellowtail', cursive;
+    margin-left: 25%;
+    color: white;
+}
+
+
+
+/*SECCION PREGUNTAS*/
+
+.preguntasTitulo{
+    text-align:left;
+    padding: 10px;
+    margin: 50px;
+    color: aliceblue;
+}
+
+.preguntas{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    
+}
+
+.hijoPreguntas{
+    padding: 20px;
+    color: aliceblue;
+    
+}
+
+/*SECCION NOSOTROS*/
+
+.nosotrosTitulo{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 50px;
+}
+
+.nosotros iframe{
+    border-radius: 5px;
+}
+
+.hijoNosotros{
+    height: 400px;
+    width: 600px;
+    border-radius: 4px;
+}
+
+.descripcionNosotros{
+    font-size: 18px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+
+/*PIE DE PAGINA*/
+footer {
+    display: flex;
+    background-image: linear-gradient(to right, #fc4a1a, #f7b733);
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+.hijoFooter h2{
+    text-align: start;
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-size: 20px;
+}
+
+.redes h2{
+    margin:14px ;
+}
+
+
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    border-radius: 4px;
+}
+
+
+/*GRID */
+
+header {
+    grid-area: header;
+    position: sticky;
+    top: 0;
+    /*Z-INDEX*/
+    z-index: 2;
+}
+
+footer{
+    grid-area: footer;
+}
+/*GRID INICIO*/
+.padreGridInicio{
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "hijoGridInicio hijoGridInicio hijoGridInicio"
+    "hijoGridInicio hijoGridInicio hijoGridInicio"
+    "hijoGridInicio hijoGridInicio hijoGridInicio"
+    "footer footer footer"
+    ;
+}
+
+
+.padreGridMenu{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "hijoGridMenu hijoGridMenu hijoGridMenu"
+    "footer footer footer";
+}
+
+.padreGridContacto{
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "hijoGridContacto hijoGridContacto hijoGridContacto"
+    "footer footer footer" 
+    ;
+}
+
+.padreGridNosotros{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "hijoGridNosotros hijoGridNosotros hijoGridNosotros"
+    "footer footer footer";
+}
+
+
+.padreGridPreguntasFrecuentes{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "hijoGridPreguntasFrecuentes hijoGrudPreguntasFrecuentes hijoGridPreguntasFrecuentes"
+    "footer footer footer";
+
+}
+
+
+
+.inicio{
+    grid-area: inicio;
+}
+
+
+.hijoGridMenu{
+    grid-area: hijoGridMenu; 
+}
+
+.hijoGridContacto{
+    grid-area: hijoGridContacto;
+}
+
+/*.primeraCaja{
+    grid-area: primeraCaja;
+}
+
+.segundaCaja{
+    grid-area: segundaCaja;
+}*/
+
+.hijoGridInicio{
+    grid-area: hijoGridInicio;
+}
+
+.hijoGridNosotros{
+    grid-area: hijoGridNosotros;
+}
+
+.hijoGridPreguntasFrecuentes{
+    grid-area: hijoGridPreguntasFrecuentes;
+}
+
+
+
+@media (min-width: 550px){
+    /*
+    footer {
+        display: flex;
+        background-image: linear-gradient(to right, #fc4a1a, #f7b733);
+        align-items:center;
+        align-content: space-evenly;
+        flex-direction: column;
+        padding:10px;
+    }*/
+
+
+    .padreGridInicio{
+        grid-template-areas: 
+        "header"
+        "hijoGridInicio"
+        "hijoGridInicio"
+        "hijoGridInicio"
+        "hijoGridInicio"
+        "footer";
+    }
+
+    .inicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .padreGridMenu{
+        grid-template-areas: 
+        "header"
+        "hijoGridMenu"
+        "footer";
+    }
+
+    .padreGridNosotros{
+        grid-template-areas: 
+        "header"
+        "hijoGridNosotros"
+        "footer";
+    }
+
+    .nosotros{
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    .padreGridContacto{
+        grid-template-areas: 
+        "header"
+        "hijoGridContacto"
+        "footer";
+    }
+
+    .padreGridPreguntasFrecuentes{
+        grid-template-areas: 
+        "header header"
+        "hijoGridPreguntasFrecuentes hijoGridPreguntasFrecuentes"
+        "footer footer";
+    }
+
+}
+
+
+@media (min-width: 768px){
+    .padreGridInicio{
+        grid-template-areas: 
+        "header header"
+        "hijoGridInicio hijoGridInicio"
+        "hijoGridInicio hijoGridInicio"
+        "hijoGridInicio hijoGridInicio"
+        "hijoGridInicio hijoGridInicio"
+        "footer footer";
+    }
+
+    .padreGridMenu{
+        grid-template-areas: 
+        "header header"
+        "hijoGridMenu hijoGridMenu"
+        "footer footer";
+    }
+
+    .padreGridContacto{
+        grid-template-areas: 
+        "header header"
+        "hijoGridContacto hijoGridContacto"
+        "footer footer";
+    }
+
+    .padreGridNosotros{
+        grid-template-areas: 
+        "header header"
+        "hijoGridNosotros hijoGridNosotros"
+        "footer footer";
+    }
+
+    .padreGridPreguntasFrecuentes{
+        grid-template-areas: 
+        "header header"
+        "hijoGridPreguntasFrecuentes hijoGridPreguntasFrecuentes"
+        "footer footer";
+    }
+}
+
